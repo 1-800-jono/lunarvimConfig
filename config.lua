@@ -8,6 +8,7 @@ vim.opt.listchars:append({ space = '·' })
 lvim.builtin.breadcrumbs.active = false
 lvim.transparent_window = true
 lvim.plugins = {
+
   -- Themes
   { "lunarvim/colorschemes" },
   { "morhetz/gruvbox" },
@@ -28,6 +29,7 @@ lvim.plugins = {
       vim.g.gitblame_ignored_filetypes = { 'lua' }
     end,
   },
+
   -- Vim
   { "tpope/vim-surround" },
   {
